@@ -27,8 +27,7 @@ public class jscSftpEventListener implements SftpEventListener {
     
     private final Logger logger;
 
-    SFTPService service;
- 
+    SFTPService service; 
     
     public jscSftpEventListener(SFTPService service) {
         this.logger = Logger.getLogger(jscSftpEventListener.class.toString());
